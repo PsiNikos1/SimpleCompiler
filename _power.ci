@@ -1,0 +1,29 @@
+
+program someAdditions {
+
+     declare i, x, y;
+
+     input(x);    # 5 #
+     input(y);  # 6 #
+
+     i := 0;    
+     if (i = x)
+     {
+         y := x + y;
+         i := i + 1;
+     }
+    else{
+        print (i);
+
+    }
+    print(x);
+    print(y);
+
+    while(x<y){
+        x:= x + 1
+    }
+
+     print(x); # should be 31 #
+     print(i); # should be 5  #
+
+}.
